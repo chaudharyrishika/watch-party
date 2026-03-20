@@ -7,9 +7,9 @@ Users can join rooms, watch videos simultaneously, and experience synchronized p
 ---
 
 ## 🚀 Live Demo
-👉 (Add after deployment)
-Frontend: https://your-app.vercel.app  
-Backend: https://your-backend.onrender.com  
+
+Frontend: https://your-vercel-link.vercel.app  
+Backend: https://watch-party-yqqw.onrender.com  
 
 ---
 
@@ -31,26 +31,26 @@ Backend: https://your-backend.onrender.com
 ### Frontend
 - React (Vite)
 - Tailwind CSS
-- :contentReference[oaicite:0]{index=0} (client)
-- :contentReference[oaicite:1]{index=1}
+- Socket.IO Client
+- YouTube IFrame API
 
 ### Backend
 - Node.js
 - Express.js
-- :contentReference[oaicite:2]{index=2}
+- Socket.IO
 
 ---
 
 ## ⚙️ How It Works
 
-1. User enters a username and room ID
-2. First user becomes **Host**, others become **Participants**
+1. User enters a username and room ID  
+2. First user becomes **Host**, others become **Participants**  
 3. Host controls:
-   - Play / Pause
-   - Seek
-   - Change Video
-4. All actions are sent via WebSockets and synced across users in real-time
-5. Backend validates role before executing actions
+   - Play / Pause  
+   - Seek  
+   - Change Video  
+4. All actions are sent via WebSockets and synced across users in real-time  
+5. Backend validates role before executing actions  
 
 ---
 

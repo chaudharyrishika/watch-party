@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { io } from "socket.io-client";
 import YouTube from "react-youtube";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://watch-party-yqqw.onrender.com");
 
 function App() {
   const [username, setUsername] = useState("");
