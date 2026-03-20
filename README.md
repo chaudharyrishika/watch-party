@@ -8,7 +8,7 @@ Users can join rooms, watch videos simultaneously, and experience synchronized p
 
 ## 🚀 Live Demo
 
-Frontend: https://your-vercel-link.vercel.app  
+Frontend: watch-party-azure.vercel.app 
 Backend: https://watch-party-yqqw.onrender.com  
 
 ---
